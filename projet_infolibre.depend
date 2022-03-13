@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1645228020 source:/run/media/shared_storage/Documents/GitHub/projet_infolibre/main.cpp
+	<iostream>
+	"window.hpp"
+
+1645228435 /run/media/shared_storage/Documents/GitHub/projet_infolibre/window.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1645228043 source:/run/media/shared_storage/Documents/GitHub/projet_infolibre/window.cpp
+	"window.hpp"
+

@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-lsfml-graphics -lsfml-window -lsfml-system" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add option="-lsfml-graphics -lsfml-window -lsfml-system" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,6 +34,7 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="test.cpp" />
 		<Unit filename="window.cpp" />
 		<Unit filename="window.hpp" />
 		<Extensions />

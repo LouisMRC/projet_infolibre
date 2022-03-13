@@ -1,6 +1,7 @@
 #ifndef WINDOW_HPP
 #define WINDOW_HPP
 
+#include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 
 class Window
